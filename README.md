@@ -1,6 +1,6 @@
 # Documentation
 
-ChipJabber™ is a voltage fault injection tool by [NewAE Technology Inc](https://www.newae.com). It's the voltage glitch tool that you can build yourself! 
+ChipJabber™ Unplugged is a voltage fault injection tool by [NewAE Technology Inc](https://www.newae.com). It's the voltage glitch tool that you can build yourself, no programmable logic in site! If you want a more "useful" tool you'll probably want programmable logic (such as found in our ChipWhisperer tooling), but if you want to have some fun building a kit with lots of knobs, ChipJabber-Unplugged is your game.
 
 ![](img/cj_kit_web.jpg)
 

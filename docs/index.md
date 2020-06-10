@@ -2,51 +2,61 @@
 title: ChipJabber-Unplugged
 ---
 
-ChipJabber™ is a voltage fault injection tool by [NewAE Technology Inc](https://www.newae.com). It's the voltage glitch tool that you can build yourself! 
+ChipJabber™-Unplugged is a voltage fault injection tool by [NewAE Technology Inc](https://www.newae.com). It's the voltage glitch tool that you can build yourself, and features not a single piece of programmable logic anywhere in sight.
 
 ![](img/cj_kit_web.jpg)
 
-See the architecture tab for more details of how it works. Some overview photos are below:
+This device was discussed in detail in the July 2020 issue of [Circuit Cellar](http://circuitcellar.com/).
+
+See the pages on menu at left for more details of how it works, and see the [GITHub Repository](https://www.github.com/newaetech/chipjabber-unplugged) for relevant design documents.
 
 ## Variants
 
-There are three versions of ChipJabber-Unplugged, which use almost the same architectures:
+There are three versions of ChipJabber-Unplugged, which use almost the same architectures (only some minor differences):
 
-* *ChipJabber-Unplugged Old-School PCB*: This kit is designed to be built with home-etch boards (minimal number of vias), or a PCB mill such as the Bantam PCB Mill.
-* *ChipJabber-Unplugged Kit*: This kit is a classic electronics kit, using almost all through-hole electronics parts. 
-* *ChipJabber-Unplugged Mini*: This is a pre-built unit, using surface-mount electronics to make a much smaller version.
+* *ChipJabber-Unplugged Kit*: This kit is a classic electronics kit, using almost all through-hole electronics parts. You can build this design on a breadboard or perfboard as well if you wish using the provided schematic.
+* *ChipJabber-Unplugged Mini*: This is a pre-built unit, using surface-mount electronics to make a much smaller version. Not available as a kit due to the hassle of making SMD kits (sorry).
+* *ChipJabber-Unplugged Old-School PCB*: This board is designed to be built with home-etch boards (minimal number of vias), or a PCB mill such as the Bantam PCB Mill. It's a slightly simplified version of the normal ChipJabber-Unplugged. The board exactly fits the [Bantam PCB Mill](bantamtools.com) working area.
 
 
-### ChipJabber-Unplugged
+### ChipJabber-Unplugged Kit
 
 ![](img/cj_zoom_web.jpg)
 
 ### ChipJabber-Unplugged Mini
 
+Need to glitch on the go, but still want to twiddle those settings physically? No worries, ChipJabber-Unplugged Mini is slightly larger than the 3x AA batteries powering it, and features excessively large "slider" style potentiometers. Here's an early photo of it:
+
 ![](img/cj_mini_web.jpg)
 
-### ChipJabber-Unplugged
+### ChipJabber-Unplugged Home-Etch PCB
 
-![](img/cj_kit_web.jpg)
+Firing up the tank of ferrochloric acid, or spinning up your PCB mill? A special edition of the board is done with double-sided logic, but minimizing the number of vias
+
+![](img/chipjabber-simplepcb.jpg)
 
 
 ## Tools
 
-Any of them can be used in combination with some other cool tools as part of the project:
+Any of the glitchers can be used in combination with some other cool tools as part of the project:
 
 ### NOTDuino Secure Boot
+
+Now that you've got a glitcher, what do you do? While we include the NOTDuino "Secure Boot" demo board, which uses a very simple EEPROM as a "key" to validate the boot process. This board is can be programmed via the Arduino IDE by plugging in a serial-to-USB adapter, such as the DIPUSB tool below.
 
 ![](img/notduino_web.jpg)
 
 ### DIPUSB
 
+How are you going to talk 3.3V serial to your device? No worry, the all-through-hole DIPUSB adapter will work for you:
+
 ![](img/dipusb_web.jpg)
 
 ## Real-Life Usage
 
-ChipJabber-Unplugged is designed more for fun than "real-life" usage. But - you can do real stuff with it. 
+ChipJabber-Unplugged is designed more for fun than "real-life" usage. But - you can do real stuff with it. Why not recreate [Chris Gerlinsky](https://twitter.com/akacastor)'s [LPC Code Read Protection attack](https://recon.cx/2017/brussels/resources/slides/RECON-BRX-2017-Breaking_CRP_on_NXP_LPC_Microcontrollers_slides.pdf)?
 
-TODO - example.
+![](img/chipjabber-usage-lpcbare.jpg)
 
 ---
 
