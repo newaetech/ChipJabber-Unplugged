@@ -10,6 +10,10 @@ This device was discussed in detail in the July 2020 issue of [Circuit Cellar](h
 
 See the pages on menu at left for more details of how it works, and see the [GITHub Repository](https://www.github.com/newaetech/chipjabber-unplugged) for relevant design documents.
 
+!!! WARNING
+
+	This repo is still a work in progress. The uploaded material currently supports the Circuit Cellar article. More details of the full kits is coming shortly, check back soon. Annoucements will come via [NewAE Technology's low-volume newsletter](https://tinyletter.com/newaetech).
+
 ## Variants
 
 There are three versions of ChipJabber-Unplugged, which use almost the same architectures (only some minor differences):
