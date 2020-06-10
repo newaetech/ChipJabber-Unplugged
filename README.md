@@ -6,7 +6,7 @@ ChipJabber™ Unplugged is a voltage fault injection tool by [NewAE Technology I
 
 The documentation for it is held in this repo, but you should browse it at 
 
-https://newaetech.github.io/chipjabber-unplugged
+http://www.chipjabber-unplugged.com
 
 ## ⚠️ WARNING
 
