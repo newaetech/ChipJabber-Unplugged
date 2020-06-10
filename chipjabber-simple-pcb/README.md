@@ -1,12 +1,14 @@
-## Simple PCB
+# Simple PCB
 
 
-This folder contains the following folders you may need for PCB generation:
 
-```
-	gerber_ncdrill		         Gerber files generated at 2.3 imperial
-    gerber_ncdrill_copperonly    Same files as above, with only GTL (Top Copper), BTL (Bottom Copper), and NC-Drill file
-```
+
+## Making PCB
+
+These folder contains the following folders you may need for PCB generation:
+
+* `gerber_ncdrill` - Gerber files generated at 2.3 imperial
+* `gerber_ncdrill_copperonly` - Same files as above, with only GTL (Top Copper), BTL (Bottom Copper), and NC-Drill file
 
 The `gerber_ncdrill_copperonly` should basically just work in the Bantam software. The board is designed to run on a 4x5 inch double-sided PCB. You may also need the .GM1 file (outline), but be sure to DISABLE IT, as it will run the tool into the holding jig.
 
@@ -31,3 +33,4 @@ In addition, the two TO220-5 power regulators need from the top-side:
 * U6, U7: Pin 3 (middle pin)
 
 J8 & J4 both have one pin that needs to be soldered from top-side (may need extra-long headers to do these).
+
