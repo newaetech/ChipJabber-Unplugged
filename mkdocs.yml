@@ -1,0 +1,43 @@
+# Project information
+site_name: ChipJabber-Unplugged
+site_description: The low-tech voltage glitch platform.
+site_author: NewAE Technology Inc.
+#site_url: https://squidfunk.github.io/mkdocs-material/
+
+# Repository
+repo_name: newaetech/chipjabber-unplugged
+repo_url: https://github.com/newaetech/chipjabber-unplugged
+
+# Copyright
+copyright: Copyright &copy; 2020 NewAE Technology Inc.
+
+# Configuration
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  palette:
+    scheme: slate
+    primary: deep orange
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# Extras
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/newaetech
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/newaetech
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/newae-technology-inc-
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
