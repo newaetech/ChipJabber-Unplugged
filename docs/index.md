@@ -2,13 +2,15 @@
 title: ChipJabber-Unplugged Overview
 ---
 
-ChipJabber™-Unplugged is a voltage fault injection tool by [NewAE Technology Inc](https://www.newae.com). It's the voltage glitch tool that you can build yourself, and features not a single piece of programmable logic anywhere in sight.
+ChipJabber™-Unplugged is a voltage fault injection tool by [NewAE Technology Inc](https://www.newae.com). It's the voltage glitch tool that you can build yourself, and features *not a single piece of programmable logic anywhere in sight*.
 
 ![](img/cj_kit_web.jpg)
 
 This device was discussed in detail in the July 2020 issue of [Circuit Cellar](http://circuitcellar.com/).
 
 See the pages on menu at left for more details of how it works, and see the [GITHub Repository](https://www.github.com/newaetech/chipjabber-unplugged) for relevant design documents.
+
+The objective of this project is to teach you about voltage fault injection & how easily it can be performed. When you go to do real work you probably *want* some programmable logic to make it easier to sweep glitch parameters and settings, without spending all your time tweaking knobs. You can check out the [ChipWhisperer](https://www.newae.com/ChipWhisperer) project & the [ChipSHOUTER](https://www.newae.com/chipshouter) tools for more advanced fault injection tools, and the [ChipWhisperer.io Online Training](https://learn.chipwhisperer.io) might be of interest to you to understand how this all works.
 
 !!! WARNING
 
