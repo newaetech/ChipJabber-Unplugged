@@ -1,7 +1,10 @@
 # Simple PCB
 
+This simple version of the main PCB tries to avoid extra vias. As such, we don't recommend using this layout for an actual PCB! The silkscreen is also mostly garbage, as the intended use (milling) means there is no silkscreen anyway.
 
+If you are building a DIY solution on a breadboard or prefboard, see the schematic of the "main" board version. This version has some small limitations (no reverse-polarity protection, no crowbar output, etc) that mean it's much better to use the main board schematic as a reference.
 
+The main board schematic has also been more thoroughly tested!
 
 ## Making PCB
 
