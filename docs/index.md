@@ -15,6 +15,10 @@ The objective of this project is to teach you about voltage fault injection & ho
 !!! WARNING
 
 	This repo is still a work in progress. The uploaded material currently supports the Circuit Cellar article. More details of the full kits is coming shortly, check back soon. Annoucements will come via [NewAE Technology's low-volume newsletter](https://tinyletter.com/newaetech).
+	
+!!! INFO
+	
+	Check out the [Crowd-Supply Page](https://www.crowdsupply.com/newae/chipjabber-unplugged) for more details. Currently it's just a blank sign-up to be notified when kits are available!
 
 ## Variants
 
